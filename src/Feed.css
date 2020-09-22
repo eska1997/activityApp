@@ -1,0 +1,96 @@
+.feed{
+    display: flex;
+    flex:0.5;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    justify-content: center;
+}
+.feed_body{
+    display: flex;
+    flex-direction: column;
+   justify-self: center;
+   margin-top:10px;
+   overflow-y: scroll;
+}
+.feed_body::-webkit-scrollbar {
+    display: none;
+  }
+.feed_bodySearch{
+    display: flex;
+    background-color: white;    
+    padding: 10px;
+    margin: 10px;
+    border-radius: 999px;
+    height: 20px;                             
+}
+.feed_bodysearchdiv {
+ display: flex;
+ 
+}
+.feed_bodySearch input{
+ width: 30vw;
+ outline-width:0;
+ border: none;
+ margin-left: 10px;
+}
+.feed_bodyCard{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding:5px;
+    width:40vw;
+    margin-top:10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+   border-radius: 0.2em;
+}
+.feed_bodyCardhearticon {
+    display: flex;
+    padding: 5px;
+    width: 300px;
+    font-size: small;
+    justify-content: space-evenly;
+    
+}
+.feed_bodyCardhearticon > p {
+    font-size: small;
+}
+.feed_bodyCardHeader{
+    display: flex;
+    flex: start;
+    margin:5px;
+    
+}
+.feed_bodyCard img{
+    height:300px;
+    width:300px;
+}
+.feed_bodyCardHeader > div{
+    margin-left: 5px;
+}
+.feed_options {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.feed_options > p {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin-left: 5px;
+    max-width: 150px;
+    line-height: 1;
+}
+.feed_bodyCardHeader > div > p{
+    font-size: 12px;
+}
+.feed_bodyCardActivity{
+    display: flex;
+}
+.feed_bodyCardDetails{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+.feed_bodyCardDetails p{
+    font-size: 14px;
+    color:gray;
+}

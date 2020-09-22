@@ -1,0 +1,17 @@
+.App {
+  display:grid;
+  background-color: #f1f1f1;
+  height:100vh;
+  width:100vw;
+  overflow: hidden;
+  place-items: right;
+}
+.App_body {
+  display:flex;
+  background-color: #f1f1f1;
+  height:100vh;
+  width:100vw;
+}
+.App_bodyFeeds{
+  overflow-y: scroll;
+}

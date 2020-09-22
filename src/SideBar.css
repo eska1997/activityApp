@@ -1,0 +1,70 @@
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.3;
+    justify-content: space-evenly;
+}
+.sideBar_profile{
+    place-self: center;
+    display:flex;
+    width:25vw;
+    height:30vh;
+    flex-direction: column;
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    margin-top:5vh;
+    justify-content: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.sideBar_profileHeader {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+.sideBar_profileHeader > .MuiAvatar-root{
+  height: 75px;
+  width:75px;
+  place-self: center;
+}
+.sideBar_profileHeader h5{
+    place-self: center;
+}
+.sideBar_profileBody{
+    display: flex;
+    justify-content: center;
+
+}
+.sideBar_profileBody > button{
+    background-color: white;
+    border-color: transparent;
+    height:30px;
+    width:80px;
+    margin:15px 5px 5px 5px;
+    border-radius: 0.2em;
+    outline:rgb(0, 225, 255);
+}
+.sideBar_profileHeader p{
+    place-self: center;
+    color:#525252;
+    font-size: small;
+}
+.sideBar_action{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    margin-top: 10px;
+    place-self: center;
+    background-color: white;
+    width:25vw;
+    border-radius: 0.5em;
+    
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.sideBar_action > button{
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    border-color: transparent;
+    height:30px;
+    width:80px;
+    margin:15px 5px 5px 5px;
+    border-radius: 0.2em;
+    outline:rgb(0, 225, 255);
+}

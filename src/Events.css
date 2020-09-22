@@ -1,0 +1,34 @@
+.events{
+    display: flex;
+    flex:0.3;
+    justify-content: center;
+}
+.events_body{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.events_body::-webkit-scrollbar{
+    display: none;
+}
+.events_bodyCard{
+    display: flex;
+    background: white;
+    border-radius: 0.5em;
+    height:30vh;
+    width:20vw;
+    margin-top:10px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.events_bodyCard > img{
+    padding:5px;
+    width:auto;
+    height:70%;
+}
+.events_bodyCard > p{
+    font-size: x-small;
+    color:gray;
+}
+
